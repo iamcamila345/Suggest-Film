@@ -1,0 +1,61 @@
+<!--Autor: Camila Gomes RGM:33536341
+    Autor: Eduardo Henrique RGM:33457671
+    Autor: Rafael  Torres   RGM:33880093
+    Autor: Maria Eduarda RGM:33428344-->
+<!DOCTYPE html>
+<html lang="Pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/suggestlogo.png" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Suggest film</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="index.html" class="logo">S<span>UG</span>GE<span>ST </span>FILM</a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Inicio</a></li>
+          <li class="nav-item"><a href="filme.html">Filme</a></li>
+          <li class="nav-item"><a href="login.html">Login</a></li>
+          <i class="bx bx-search"></i>
+        </ul>
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div class="home-text">
+          <h4 class="text-h4">Bem vindo</h4>
+          <h1 class="text-h1">Recomendador de filmes</h1>
+          <p>
+            Descubra sua próxima maratona perfeita com nosso site recomendador
+            de filmes e séries, onde recomendações personalizadas transformam
+            sua experiência de entretenimento!
+          </p>
+          <a href="#" id="home-btn" onclick="suggestMovie()">Sugerir</a>
+        </div>
+        <div>
+          <p id="movieInfo"></p>
+        </div>
+
+        <div class="home-img">
+          <img src="img/fundo pages.jpg" alt="fundo" />
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <footer>
+      <p>&copy; 2024 SUGGEST FILM</p>
+    </footer>
+  </body>
+</html>
